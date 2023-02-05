@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challange 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logoimg" src="img/Logo.png">
+            <h1 class="title">Encriptador palabra misteriosa</h1>
+
+        </div>
+        <div class="left">
+           <input class="text_input" id="inputTexto" type="text" placeholder="Ingrese el texto aquí">
+
+        </div>
+        <div class="right">
+           <img src="img/Muñeco.png" alt="busqueda" id="imgDer">
+           <h1 id="texto">Ningún mensaje fue encontrado</h1>
+           <textarea name="" id="texto2" cols="30" rows="10">Ingrese el texto que desee encriptar o desencriptar.</textarea>
+           <button id="copiar" onclick="copy()">¡Copiar!</button>
+
+        </div>
+        <div class="left-button">
+            <p>Solo minusculas y sin acentos</p>
+            <button type="" id="btn-encrip" onclick="encriptar()">Encriptar</button>
+            <button type="" id="btn-desecrip" onclick="desencriptar()">Desencriptar</button>
+         
+            
+
+        </div>
+    </div>
+</body>
